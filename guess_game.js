@@ -13,7 +13,7 @@ while (guess < maxguess) {
     const userGuess = 1; 
 
     
-    if (userGuess === random_number) {
+    if (userGuess == random_number) {
         console.log("You guessed the correct number");
         break;
     } else if (userGuess > random_number) {
@@ -25,7 +25,7 @@ while (guess < maxguess) {
     guess++;
 }
 
-if (guess === maxguess) {
+if (guess == maxguess) {
     console.log("You cross your guess limit");
 }
 
