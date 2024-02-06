@@ -1,4 +1,7 @@
 
+//Develop a BMI (Body Mass Index) calculator program that takes a person's weight and height as input and outputs their BMI category (Underweight, Normal weight, Overweight, or Obese).
+
+
 function BMI(height, weight){ 
     let bmi = weight/Math.pow(height, 2); 
     return bmi; 
